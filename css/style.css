@@ -1,3 +1,29 @@
-h1 {
-  color: red;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: #dc854d;
+  width: 100%;
+}
+
+main {
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  background-color: #dc854d;
+  width: 100%;
 }
