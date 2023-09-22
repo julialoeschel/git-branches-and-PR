@@ -28,3 +28,11 @@ body {
   width: 100%;
   font-size: 30px;
 }
+
+.contactButton {
+  background-color: lightblue;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
