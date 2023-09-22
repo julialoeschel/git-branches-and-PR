@@ -11,7 +11,7 @@ body {
 .header {
   position: fixed;
   top: 0;
-  background-color: #dc854d;
+  background-color: rgb(85, 136, 153);
   width: 100%;
 }
 
@@ -24,7 +24,16 @@ body {
   position: fixed;
   bottom: 0;
   height: 40px;
-  background-color: #dc854d;
+  background-color: rgb(85, 136, 153);
   width: 100%;
   font-size: 30px;
+}
+
+.contactButton {
+  background-color: rgb(85, 136, 153);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-left: 2rem;
+  border: 1px solid yellow;
 }
